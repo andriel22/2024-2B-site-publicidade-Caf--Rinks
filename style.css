@@ -1,14 +1,27 @@
-*{
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
     margin: 0;
     padding: 0;
 }
 
-:root{
-
+:root {
+    --black: #050505ff;
+    --black-2: #000000ff;
+    --dim-gray: #646464ff;
+    --platinum: #DDDDDDff;
+    --eerie-black: #222222ff;
+    --texto-corpo: "Montserrat", sans-serif;
+    --texto-titulo: "Oswald", sans-serif;
 
 }
 
-body{
+body {
     background: #474d52;
     color: rgb(237, 224, 224);
+    font-family: var(--texto-corpo)
+}
+
+.titulo-principal {
+    font-family: var(--texto-titulo);
+
 }
