@@ -63,12 +63,12 @@ align-items: 12px;
     align-items: flex-start;
 }
 
-.principal-capa__combotao{
-    background-color: var(white);
+.principal-capa__botao{
+    background-color: var(--dim-gray);
     border-radius: 5px;
     padding: 1em;
     margin-top: 2em;
-    color: var(white);
+    color: var(--platinum);
     text-decoration: none;
 }
 
@@ -123,5 +123,6 @@ align-items: 12px;
 
 .propaganda__texto{
     font-size: 24px;
-    color: var(white);
+    color: var(--platinum);
 }
+
